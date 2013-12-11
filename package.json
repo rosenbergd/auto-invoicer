@@ -1,0 +1,27 @@
+{
+  "name": "auto-invoicer",
+  "version": "0.0.1",
+  "description": "My first node module. Automatic invoice creator via json object.",
+  "main": "invoicer.js",
+  "dependencies": {
+    "pdfkit": "~0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosenbergd/auto-invoicer.git"
+  },
+  "keywords": [
+    "auto",
+    "invoice",
+    "creator",
+    "auto-invoicer",
+    "slip"
+  ],
+  "author": "Daniel Roy Rosenberg",
+  "license": "BSD",
+  "gitHead": "c3222e3b654a665b48a2161e5bd10169f18e4204"
+}

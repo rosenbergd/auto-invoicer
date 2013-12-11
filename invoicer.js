@@ -5,7 +5,7 @@ var doc;
 var obj;
 var totalEnd;
 
-function dogbreath(){
+function invoicer(){
 	PDFDocument = require('pdfkit');
 	doc = new PDFDocument();
 	doc.info['Title'] = 'Invoice Document';
@@ -13,10 +13,10 @@ function dogbreath(){
 	totalEnd=0.0;
 }
 
-dogbreath.prototype.generate = function(object){
+invoicer.prototype.generate = function(object){
 	obj = object;
 }
-dogbreath.prototype.writer = function(){
+invoicer.prototype.writer = function(){
 //add image
 doc.image('Invirohub_Small.jpg', 400, 60, {fit:[150, 150]});
 //font size (default)
@@ -157,4 +157,4 @@ doc.fontSize(12);
 //write to file
 doc.write('out.pdf');
 }
-module.exports = dogbreath;
+module.exports = invoicer;

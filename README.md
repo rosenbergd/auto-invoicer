@@ -25,50 +25,49 @@ uses npm package manager to install. use the following command to install:
 	write.generate(obj);//send in the json object
 	write.writer();//write the file
 
-##JSON file structure
+## JSON file structure
 
 	{
-		"customer":{
-			"name":"person's name",
-			"address":"person's address",
-			"items":[ #unlimited entries
+		"customer" : {
+			"name" : "person's name",
+			"address" : "person's address",
+			"items": [
 				{
-					"description":"item 1 description",
-					"price":100.0,
-					"quantity":5
+					"description" : "item 1 description",
+					"price" : 100.0,
+					"quantity" : 5
 				},
 				{
-					"description":"item 2 description",
-					"price":200.0,
-					"quantity":9
+					"description" : "item 2 description",
+					"price" : 200.0,
+					"quantity" : 9
 				},
 				{
-					"description":"item 3 description",
-					"price":500.0,
-					"quantity":10
-					}
+					"description" : "item 3 description",
+					"price" : 500.0,
+					"quantity" : 10
+				}
 			],
-			"vat":14.0,
-			"date":"2013-12-12"
+			"vat" : 14.0,
+			"date" : "2013-12-12"
 		}
 	}
 	
-##Updates may include features such as:
+## Updates may include features such as:
+ - Editing footers and headers
+ - Editing photo and adding photo
+ - User suggestions
+	
+## Features
+ - Unlimited entries (automatically extend to more pages as needed)
+ - PDF output for invoices
+ - Image in invoice
 
-	*Editing footers and headers
-	*Editing photo and adding photo
-	*User suggestions
-	*etc.
-	
-##Features
+## Thanks
 
-	*unlimited entries
-	
-##Thanks
+I will be happy to know that people are using this module.
 
-	I will be happy to know that people are using this module.
-	
-	Special thanks to https://www.omniref.com for adding this project to their website.
-	
-	Enjoy.
-	contact: dampi05@gmail.com
+Special thanks to https://www.omniref.com for adding this project to their website.
+
+Enjoy.
+contact: dampi05@gmail.com

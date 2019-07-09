@@ -71,4 +71,4 @@ I will be happy to know that people are using this module.
 -->
 Enjoy.
 
-contact: dampi05@gmail.com
+Contact: dampi05@gmail.com

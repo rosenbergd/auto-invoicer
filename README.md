@@ -67,7 +67,7 @@ uses npm package manager to install. use the following command to install:
 
 I will be happy to know that people are using this module.
 
-Special thanks to https://www.omniref.com for adding this project to their website.
+Special thanks to [Omniref](https://www.omniref.com) for adding this project to their website.
 
 Enjoy.
 contact: dampi05@gmail.com
